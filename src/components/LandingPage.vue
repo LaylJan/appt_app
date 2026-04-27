@@ -8,7 +8,7 @@
     >
 
     <!-- Optional Dark Overlay -->
-    <div class="absolute inset-0 bg-black/30"></div>
+    <div class="absolute inset-0 bg-black/50"></div>
 
     <!-- Optional Text -->
     <div class="absolute inset-0 flex items-center justify-center">
@@ -28,23 +28,14 @@
 
 </template>
 <script>
-import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.webp";
-import img3 from "../assets/img3.png";
-import img4 from "../assets/img4.jpg";
-import img5 from "../assets/img5.jpg";
+
 import docInfo from "./docInfo.vue";
 
 export default { 
   components: {
     docInfo,
   },
-  data() {
-    return {
-      currentIndex: 0,
-      images: [img1, img2, img3, img4, img5], // Array of image paths
-    };
-  },
+
   mounted() {
     this.startAutoSlide();
   },

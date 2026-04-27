@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-yellow-500 text-white py-6">
+  <footer class="bg-[#0E7490] text-white py-6">
     <div class="container mx-auto px-4">
       <!-- Top Section -->
       <div class="flex flex-wrap justify-between items-center mb-4">
@@ -13,11 +13,11 @@
 
         <!-- Navigation Links -->
         <div class="flex space-x-8">
-          <a href="#" class="hover:text-blue-600 transition">Privacy Policy</a>
-          <a href="#" class="hover:text-blue-600 transition"
+          <a href="#" class="hover:text-black transition">Privacy Policy</a>
+          <a href="#" class="hover:text-black transition"
             >Terms of Service</a
           >
-          <a href="#" class="hover:text-blue-600 transition">Support</a>
+          <a href="#" class="hover:text-black transition">Support</a>
         </div>
       </div>
 
@@ -30,10 +30,10 @@
 
         <!-- Social Media Icons -->
         <div class="flex space-x-4">
-          <a href="#" class="hover:text-blue-600 transition">
+          <a href="#" class=" transition">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6 text-black hover:text-blue-600 hover:text-opacity-90 transition duration-300"
+              class="w-6 h-6 text-black hover:text-white hover:text-opacity-90 transition duration-300"
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
@@ -44,10 +44,10 @@
               />
             </svg>
           </a>
-          <a href="#" class="hover:text-blue-600 transition">
+          <a href="#" class="hover:text-white transition">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6 text-black hover:text-blue-600 hover:text-opacity-90 transition duration-300"
+              class="w-6 h-6 text-black hover:text-white hover:text-opacity-90 transition duration-300"
               viewBox="0 0 24 24"
               fill="currentColor"
             >
@@ -56,10 +56,10 @@
               />
             </svg>
           </a>
-          <a href="#" class="hover:text-blue-600 transition">
+          <a href="#" class="transition">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6 text-black hover:text-blue-600 hover:text-opacity-90 transition duration-300"
+              class="w-6 h-6 text-black hover:text-white hover:text-opacity-90 transition duration-300"
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
