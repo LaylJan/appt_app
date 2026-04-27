@@ -1,26 +1,24 @@
 <template>
-<div class="w-full relative h-96">
+<div class="w-full relative h-[700px]">
     <!-- Red Section -->
-    <div class="absolute inset-0 bg-blue-500  flex bg-opacity-30 items-center justify-center z-10">
-      <img src="../assets/Welcome.png" alt="" class="h-96">
+  <img 
+        src="../assets/Hospital.png" 
+        alt="NovaCare Hospital"
+        class="w-full h-full object-cover"
+    >
+
+    <!-- Optional Dark Overlay -->
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <!-- Optional Text -->
+    <div class="absolute inset-0 flex items-center justify-center">
+        <h1 class="text-white text-4xl font-bold drop-shadow-lg">
+            NovaCare Hospital
+        </h1>
     </div>
 
-    <!-- Carousel -->
-    <div class="absolute inset-0 overflow-hidden">
-      <div class="flex transition-transform duration-700 ease-in-out" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
-        <!-- Image 1 -->
-        <img :src="images[1]" alt="Slide 1" class="w-full h-96 object-cover" />
-        <!-- Image 2 -->
-        <img :src="images[0]" alt="Slide 2" class="w-full h-96 object-cover" />
-        <!-- Image 3 -->
-        <img :src="images[2]" alt="Slide 3" class="w-full h-96 object-cover" />
-        <!-- Image 4 -->
-        <img :src="images[3]" alt="Slide 4" class="w-full h-96 object-cover" />
-        <!-- Image 5 -->
-        <img :src="images[4]" alt="Slide 5" class="w-full h-96 object-cover" />
-      </div>
-    </div>
-  </div>
+
+</div>
   <div class="flex justify-center gap-4 p-4 bg-gray-100">
     <docInfo src="DR1.png" />
     <docInfo src="DR2.png" />
